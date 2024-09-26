@@ -61,7 +61,7 @@ onload = async function() {
     // can then insert into the DOM
     document.body.appendChild(app.canvas);
     // load the texture we need
-    const texture = await PIXI.Assets.load('https://pixijs.com/assets/bunny.png');
+    const texture = await PIXI.Assets.load('bunny.png');
     
     // This creates a texture from a 'bunny.png' image
     new_bunny = new Bunny(texture);
